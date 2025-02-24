@@ -10,5 +10,6 @@ public class Student {
         System.out.println(this.age);
         System.out.println(this.gender);
     }
+
 }
 
