@@ -8,6 +8,8 @@ public class CalculatorTest {
         System.out.println(calculator.sum(1, 2));
         System.out.println(calculator.multiply(3, 4));
 
+        calculator.someArrayMethod(new int[]{1, 2, 3, 4, 5});
+        calculator.someVarArgsMethod(1, 2, 3, 4, 5);
     }
 }
 

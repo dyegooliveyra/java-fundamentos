@@ -24,7 +24,7 @@ public class StudentTest {
 
         System.out.println("------------------");
 
-        printStudent.print(student2);
+        student2.print();
     }
 
 
